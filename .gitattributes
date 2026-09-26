@@ -1,0 +1,22 @@
+# Все текстовые файлы — LF (скрипты уходят на Linux-ВМ; Windows-checkout не должен их ломать)
+* text=auto eol=lf
+*.sh   text eol=lf
+*.part text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.html text eol=lf
+*.js   text eol=lf
+*.cast text eol=lf
+*.tpl  text eol=lf
+
+# Бинарники
+*.pptx binary
+*.mp4  binary
+*.gif  binary
+*.png  binary
+*.pdf  binary
+*.jpg  binary
